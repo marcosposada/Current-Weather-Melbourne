@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Weather</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://use.fontawesome.com/a2dcd1653c.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="row">
+        <div id="city" class="large-4 columns">
+            <div class="block-city">
+                <div class="heading">
+                    <h3 class="current-city"></h3>
+                    <i class="fa fa-cloud"></i>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="temperature">
+                    <div class="degrees">
+                        <span class="degree-value"></span>
+                    </div>
+
+                    <div class="weather">
+                        <span class="weather-value"></span>
+                        <span class="min-temp">Min: <span></span></span>
+                        <span class="max-temp">Max: <span></span></span>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="humidity">
+                        <span class="detail-label">Humidity</span>
+                        <span class="detail-value"></span>
+                    </div>
+                    <div class="wind">
+                        <span class="detail-label">Wind</span>
+                        <span class="detail-value">6.2</span>
+                    </div>
+                    <div class="sunrise">
+                        <span class="detail-label">Sunrise</span>
+                        <span class="detail-value">05:41</span>
+                    </div>
+                    <div class="Sunset">
+                        <span class="detail-label">Sunset</span>
+                        <span class="detail-value">20:06</span>
+                    </div>
+                </div>
+                <ul class="toggler">
+                    <li class="celsius"><span>Celsius</span></li>
+                    <li class="fahrenheit"><span>Fahrenheit</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/what-input/dist/what-input.js"></script>
+    <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/min/app-min.js"></script>
+  </body>
+</html>
