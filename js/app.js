@@ -92,7 +92,11 @@ $.fn.delegateJSONResult = function(location){
 
             //  Current City and Temperature
 
-            var temperatures = [result.main.temp, result.main.temp_min, result.main.temp_max];
+            var temperatures = [
+                result.main.temp,
+                result.main.temp_min,
+                result.main.temp_max
+            ];
 
             tempConverter(temperatures);
 
